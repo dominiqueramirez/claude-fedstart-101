@@ -1,0 +1,17 @@
+export const lessons = [
+  { path: '/', title: 'Welcome', description: 'Course overview and what you\'ll learn' },
+  { path: '/what-is-claude', title: 'What Is Claude?', description: 'Understanding AI assistants and Claude\'s capabilities' },
+  { path: '/getting-started', title: 'Getting Started', description: 'Accessing Claude via FedStart and navigating the interface' },
+  { path: '/the-interface', title: 'The Chat Interface', description: 'Understanding the Claude web app layout' },
+  { path: '/your-first-conversation', title: 'Your First Conversation', description: 'Sending messages and reading responses' },
+  { path: '/writing-prompts', title: 'Writing Effective Prompts', description: 'How to get the best results from Claude' },
+  { path: '/conversations-context', title: 'Conversations & Context', description: 'Managing threads and understanding context windows' },
+  { path: '/files-and-images', title: 'Files & Images', description: 'Uploading documents, images, and data' },
+  { path: '/projects', title: 'Projects', description: 'Organizing work with Claude Projects' },
+  { path: '/artifacts', title: 'Artifacts', description: 'Code, documents, and visual outputs' },
+  { path: '/models', title: 'Claude Models', description: 'Haiku, Sonnet, and Opus — when to use each' },
+  { path: '/extended-thinking', title: 'Extended Thinking', description: 'Letting Claude reason through complex problems' },
+  { path: '/skills', title: 'Skills', description: 'Pre-built capabilities and custom workflows' },
+  { path: '/connectors', title: 'Connectors (MS 365)', description: 'Integrating with SharePoint, Outlook, and Teams' },
+  { path: '/tips-and-limits', title: 'Tips & Limitations', description: 'Best practices and what Claude can\'t do' },
+]

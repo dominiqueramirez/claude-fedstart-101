@@ -1,0 +1,46 @@
+.accordion {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin: 12px 0;
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-main);
+  transition: background 0.15s;
+}
+
+.accordion-header:hover {
+  background: var(--bg-hover);
+}
+
+.accordion-chevron {
+  color: var(--claude-terracotta);
+  font-size: 1.1rem;
+}
+
+.accordion-body {
+  padding: 0 18px 16px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  animation: accordionOpen 0.2s ease;
+}
+
+@keyframes accordionOpen {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

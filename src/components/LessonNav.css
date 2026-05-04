@@ -1,0 +1,54 @@
+.lesson-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-color);
+}
+
+.lesson-nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  max-width: 48%;
+}
+
+.lesson-nav-btn:hover {
+  border-color: var(--claude-terracotta);
+  background: var(--bg-hover);
+}
+
+.lesson-nav-btn.done {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.nav-arrow {
+  font-size: 1.4rem;
+  color: var(--claude-terracotta);
+}
+
+.nav-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.nav-title {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
