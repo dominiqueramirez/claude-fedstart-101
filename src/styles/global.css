@@ -13,7 +13,7 @@
   /* Futuristic accent */
   --accent-cyan: #00D4FF;
   --accent-purple: #7B2FF7;
-  --accent-gradient: linear-gradient(135deg, #D97757 0%, #7B2FF7 50%, #00D4FF 100%);
+  --accent-gradient: linear-gradient(135deg, #E8956F 0%, #D97757 50%, #C15A3A 100%);
 
   /* Neutrals */
   --bg-primary: #0D1117;
@@ -117,10 +117,8 @@ pre code {
 .lesson h1 {
   font-size: 2.2rem;
   margin-bottom: 8px;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--claude-terracotta-light);
+  font-weight: 700;
 }
 
 .lesson-subtitle {
